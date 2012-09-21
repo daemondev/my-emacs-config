@@ -1,0 +1,7 @@
+
+[Fri Sep 21 2012]
+           *** You have joined channel #gondor                          [16:17]
+           *** Users on #gondor: @ircbot kongzhen qaci lifei 
+           *** #gondor modes: +n
+           *** #gondor was created on Friday 2012/09/14 10:48:56
+      #gondor> /join #mobilebook

@@ -1,0 +1,42 @@
+;; Object mordor/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mordor/"
+  :tables (list 
+   (semanticdb-table "db_router.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("MyAppRouter" type
+               (:superclasses ("object")
+                :members 
+                  ( (""""A router to control all database operations on models in
+    the myapp application"""" code nil (reparse-symbol indented_block_body) [32 120])
+                    ("db_for_read" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [142 146])
+                        ("model" variable nil (reparse-symbol function_parameters) [148 153])
+                        ("hints" variable nil (reparse-symbol function_parameters) [155 162]))                      ) (reparse-symbol indented_block_body) [126 315])
+                    ("db_for_write" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [337 341])
+                        ("model" variable nil (reparse-symbol function_parameters) [343 348])
+                        ("hints" variable nil (reparse-symbol function_parameters) [350 357]))                      ) (reparse-symbol indented_block_body) [320 510])
+                    ("allow_relation" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [534 538])
+                        ("obj1" variable nil (reparse-symbol function_parameters) [540 544])
+                        ("obj2" variable nil (reparse-symbol function_parameters) [546 550])
+                        ("hints" variable nil (reparse-symbol function_parameters) [552 559]))                      ) (reparse-symbol indented_block_body) [515 746])
+                    ("allow_syncdb" function (:arguments 
+                      ( ("self" variable nil (reparse-symbol function_parameters) [768 772])
+                        ("db" variable nil (reparse-symbol function_parameters) [774 776])
+                        ("model" variable nil (reparse-symbol function_parameters) [778 783]))                      ) (reparse-symbol indented_block_body) [751 1021]))                  
+                :type "class")
+                nil [1 1021]))          
+    :file "db_router.py"
+    :pointmax 1021
+    :fsize 1020
+    :lastmodtime '(20535 12895)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!ryan!Dev!mordor!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.0"
+  )

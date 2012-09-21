@@ -1,0 +1,876 @@
+
+[Wed Jan 18 2012]
+           *** You have joined channel #dev                             [10:39]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: pengzhefu surui lilinghui jiawei wangye davies
+               torpedoallen hstan zhaoling guibog chentuo changsheng panglv
+               liwei lijian kongzhen ryutlis xyb lijunpeng xiliang laiwei
+               haidong yufeng sunyi flycondor gaocheng bear huanghuang menghan
+               mengwei ircbot satoru lifei 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+           *** liaofeng (liaofeng@192.168.1.6) has joined channel #dev  [10:44]
+           *** flex (flex@192.168.1.3) has joined channel #dev          [10:46]
+           *** xingben (xingben@192.168.1.3) has joined channel #dev    [10:48]
+           *** anrs (anrs@192.168.1.3) has joined channel #dev          [10:51]
+           *** xuuss (qa@192.168.1.13) has joined channel #dev          [10:52]
+           *** py (py@192.168.1.3) has joined channel #dev              [10:54]
+           *** laiwei (laiwei@192.168.1.6) has quit: Quit: Leaving.     [11:02]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev
+           *** laiwei (laiwei@192.168.1.6) has quit: Connection closed  [11:04]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev      [11:05]
+           *** laiwei (laiwei@192.168.1.6) has quit: Client closed the
+               connection                                               [11:08]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev
+           *** laiwei (laiwei@192.168.1.6) has quit: Connection closed  [11:09]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev
+           *** laiwei (laiwei@192.168.1.6) has quit: Client closed the
+               connection                                               [11:10]
+           *** whyme (liuyue@192.168.1.6) has joined channel #dev
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev
+           *** xklxkl (xklxkl@192.168.1.3) has joined channel #dev      [11:35]
+           *** liaofeng (liaofeng@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [11:41]
+           *** liaofeng (liaofeng@192.168.1.6) has joined channel #dev
+           *** jesseyang (jesseyang@192.168.1.3) has joined channel #dev
+           *** huanghuang (huanghuang@192.168.1.6) has quit: Connection closed
+                                                                        [11:58]
+           *** songjingang (Adium@192.168.1.3) has joined channel #dev
+           *** songjingang (Adium@192.168.1.3) has left channel #dev: #dev
+                                                                        [11:59]
+           *** jesseyang (jesseyang@192.168.1.3) has quit: Client exited
+           *** huanghuang (huanghuang@192.168.1.6) has joined channel #dev
+                                                                        [12:03]
+           *** huanghuang (huanghuang@192.168.1.6) has quit: Quit: Leaving
+           *** satoru (satoru@192.168.1.6) has quit: Client exited      [12:04]
+           *** hongqn (hongqn@192.168.1.6) has joined channel #dev      [12:10]
+           *** zhaoyu (zhaoyu@192.168.1.6) has joined channel #dev      [12:17]
+           *** huanghuang (huanghuang@192.168.1.3) has joined channel #dev
+                                                                        [12:18]
+           *** jesseyang (jesseyang@192.168.1.6) has joined channel #dev
+                                                                        [12:25]
+           *** py (py@192.168.1.3) has quit: Ping timeout: 121 seconds  [12:33]
+           *** panglv (panglv@192.168.1.3) has quit: Client exited      [12:58]
+           *** satoru (satoru@192.168.1.3) has joined channel #dev      [13:02]
+           *** xieshi (xieshi@192.168.1.6) has joined channel #dev
+           *** songjingang (Adium@192.168.1.3) has joined channel #dev  [13:30]
+           *** huanghuang (huanghuang@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [13:32]
+           *** songjingang (Adium@192.168.1.3) has left channel #dev: #dev
+           *** whyme (liuyue@192.168.1.6) has quit: Client exited       [13:37]
+           *** whyme (liuyue@192.168.1.3) has joined channel #dev       [13:40]
+           *** py (py@192.168.1.3) has joined channel #dev              [13:44]
+           *** huanghuang (huanghuang@192.168.1.3) has joined channel #dev
+                                                                        [13:45]
+           *** xingben (xingben@192.168.1.3) has quit: Client closed the
+               connection                                               [13:50]
+           *** qingfeng (qingfeng@192.168.1.6) has joined channel #dev  [13:56]
+           *** sunyi (Adium@192.168.1.3) has quit: Client closed the
+               connection                                               [14:04]
+           *** sunyi (Adium@192.168.1.3) has joined channel #dev
+           *** lifei (clyde@192.168.1.6) has quit: Quit: Leaving.       [14:20]
+
+[Thu Jan 19 2012]
+           *** You have joined channel #dev                             [18:14]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: hongqn sunyi hstan guojing guibog kongzhen
+               xieshi zhaoyu lijian lilinghui xiaoxiao wangye qingfeng mockee
+               whyme chentuo xiliang gaocheng flycondor xklxkl lijunpeng surui
+               huoxy panglv liaofeng laiwei anrs zhaoling luoxi ryutlis jiawei
+               mengwei xingben xyb lifei sudan ircbot torpedoallen xuuss 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+       <surui> book/templates/book/tag_widget.html
+       <surui> 8:                <dt><a onclick="moreurl(this,
+               {'r1001':'book-tag-recs'})" 
+       <surui> 11:                <dd><a onclick="moreurl(this,
+               {'r1001':'book-tag-recs'})"
+       <surui> 30:                <dt><a onclick="moreurl(this,
+               {'r1001':'book-tag-top'})" 
+       <surui> 33: 
+     <guojing> surui: 对静态的链接的点击有帮助么?
+       <surui> onclick事件来触发的
+     <guojing> ok
+     <guojing> surui: 数据结果我从哪里可以看到?                         [18:15]
+           *** xyb (xyb@192.168.1.3) has quit: Connection closed        [18:16]
+           *** zhaoyu (zhaoyu@192.168.1.6) has quit: Connection closed  [18:17]
+           *** panglv (panglv@192.168.1.3) has quit: Client exited      [18:22]
+           *** whyme (liuyue@192.168.1.6) has quit: Client closed the
+               connection
+           *** gaocheng (Miko_Gao@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:24]
+           *** guojing (user@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [18:27]
+       <surui> 好像刚换成scribe记log，所以要对log做分析                 [18:28]
+       <surui> 好像后续也会转到mysql方便统计
+       <surui> 后续的事情，要问问 davies 的计划
+       <surui> guojing                                                  [18:29]
+    <zhaoling> 推荐的按钮好像略有错误，偏下了一些                       [18:30]
+    <zhaoling> 错位
+           *** xiliang (xiliang@192.168.1.3) has quit: Quit: Leaving    [18:35]
+           *** hstan (Adium@192.168.1.6) has quit: Quit: Leaving.       [18:39]
+           *** qingfeng (qingfeng@192.168.1.6) has quit: Connection closed
+                                                                        [18:41]
+           *** lilinghui (Adium@192.168.1.6) has left channel #dev: #dev
+           *** laiwei (laiwei@192.168.1.6) has quit: Quit: Leaving.     [18:44]
+           *** liaofeng (liaofeng@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [18:46]
+           *** ryutlis (ryutlis@192.168.1.13) has quit: Quit: Leaving.  [18:48]
+           *** surui (surui@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [18:49]
+           *** sudan (Adium@192.168.1.6) has left channel #dev: #dev    [18:50]
+           *** hongqn (hongqn@192.168.1.6) has quit: Connection closed  [18:51]
+           *** torpedoallen (renph@192.168.1.3) has quit: Client exited
+                                                                        [18:52]
+           *** xklxkl (xklxkl@192.168.1.6) has quit: Client exited      [18:53]
+           *** mockee (mockee@192.168.1.3) has quit: Quit: Leaving.     [18:55]
+           *** mengwei (mengwei@192.168.1.3) has quit: Connection closed
+           *** luoxi (Adium@192.168.1.13) has quit: Quit: Leaving.      [18:57]
+           *** lijunpeng (lijunpeng@192.168.1.3) has quit: Connection closed
+           *** wangye (wangye@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** sunyi (Adium@192.168.1.3) has quit: Quit: Leaving.       [18:59]
+           *** xiaoxiao (xiaoxiao@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [19:00]
+           *** flycondor (flycondor@192.168.1.13) has quit: Client exited
+                                                                        [19:02]
+           *** xuuss (qa@192.168.1.13) has quit: Quit: Leaving.         [19:06]
+           *** xieshi (xieshi@192.168.1.6) has quit: Quit: Leaving.     [19:07]
+           *** lifei (clyde@192.168.1.3) has quit: Quit: Leaving.       [19:11]
+           *** anrs (anrs@192.168.1.3) has quit: Connection closed      [19:15]
+
+[Mon Mar 26 2012]
+           *** You have joined channel #dev                             [14:25]
+           *** Users on #dev: sunyi pengzhefu ryankung whyme jollychang
+               luoweifeng yangyang torpedoallen flex gaocheng panglv satoru py
+               bear xingben ircbot xupeng luoxi huoxy mockee mengwei lifei
+               lijian yufeng chentuo zhangchi guozhuwen xiliang zhangkejun jay
+               ryutlis sudan flycondor haidong xyb zhaoling guibog hongqn
+               wangye liwei guojing guohaochuan lijunpeng chenzheng everbird
+               xuuss menghan xklxkl anrs jiawei 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** panglv (panglv@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [14:29]
+           *** xiaoxiao (xiaoxiao@192.168.1.6) has joined channel #dev  [14:37]
+           *** qingfeng (qingfeng@192.168.1.3) has joined channel #dev  [14:43]
+      <wangye> py:http://www.douban.com/note/206453362/ 像这样的日记还能恢复吗？
+                                                                        [14:50]
+      <ircbot> Title: 音乐的力量 (at www.douban.com)
+          <py> 我转给xieshi                                             [14:51]
+     <chentuo> py: 豆油我周末看也还有是空的                             [14:52]
+          <py> 现在还有么?                                              [14:53]
+      <wangye> py:还有不少，http://www.douban.com/group/topic/28383927/，小组也
+               有                                                       [14:55]
+          <py> 还有么？攒些例子发给davies                               [14:57]
+           *** huanghuang (huanghuang@192.168.1.3) has joined channel #dev
+                                                                        [14:59]
+           *** fuyuquan (fuyuquan@192.168.1.6) has joined channel #dev
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev      [15:02]
+           *** surui (surui@192.168.1.3) has joined channel #dev        [15:10]
+           *** davies (davies@192.168.1.13) has joined channel #dev     [15:11]
+           *** xuuss (qa@192.168.1.13) has left channel #dev: #dev
+           *** panglv (panglv@192.168.1.3) has joined channel #dev
+           *** panglv (panglv@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [15:15]
+           *** huanghuang (huanghuang@192.168.1.3) has quit: Quit: Leaving
+                                                                        [15:20]
+           *** panglv (panglv@192.168.1.3) has joined channel #dev      [15:23]
+           *** huanghuang (huanghuang@192.168.1.3) has joined channel #dev
+                                                                        [15:24]
+      <wangye> py:日记206454873,206453362,206453488.小组：
+               28383837,28383927,28383878
+           *** liaofeng (liaofeng@192.168.1.6) has joined channel #dev  [15:26]
+           *** flex (flex@192.168.1.3) has quit: Connection closed      [15:27]
+         <xyb> py, wangye, 可以用程序扫一遍日记、帖子的cache吗？找出异常的来，
+               再全部修掉                                               [15:28]
+           *** guozhuwen (Adium@192.168.1.3) has quit: Quit: Leaving.   [15:30]
+      <xieshi> xyb: 这个不是cache
+      <xieshi> xyb: 是还有一些db的数据没对
+          <py> xyb: 现在静态文件的import是可以支持 @import xxx.js 么?
+                                                                        [15:31]
+         <xyb> xieshi: 从douban db取数据时，会使用 mc 做一次缓存。所以已经被用
+               户访问，成为空白正文的数据，都应该在cache中有所体现吧
+                                                                        [15:32]
+         <xyb> py: 对，是支持的。不过要写成 @import /js/path/to/file.js
+          <py> xyb: kejun刚才过来说想支持相对路径引用，现在的 @import
+               /js/xxx.js就是绝对路径从static/开始，如果不是/开头，就是相对路径
+               引用，你看可以么?                                        [15:34]
+           *** jiawei (jiawei@192.168.1.3) has quit: Quit: Leaving.     [15:35]
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed
+      <xieshi> xyb: doubandb还没完全恢复 找出来现在也修不了
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+         <xyb> py: 这是给kejun他们用的，需求也由他们来确定。只要保证逻辑上自洽
+               就可以了
+         <xyb> 还有就是小心二义性
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed  [15:36]
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+          <py> 了解.
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed  [15:37]
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+         <xyb> xieshi: 。。。明白了。不过现在可以先搞清楚都有多少数据受到影响，
+               也可以未来作为判断数据是否全部修复的依据。
+                                                                        [15:38]
+  <huanghuang> :wq                                                      [15:39]
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed  [15:40]
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev
+           *** ryutlis (ryutlis@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [15:44]
+           *** ryutlis (ryutlis@192.168.1.3) has joined channel #dev    [15:45]
+           *** guozhuwen (Adium@192.168.1.6) has joined channel #dev    [15:50]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev      [15:57]
+           *** flex (flex@192.168.1.3) has joined channel #dev          [15:59]
+           *** panglv (panglv@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** zhangkejun (zhangkejun@192.168.1.6) has left channel #dev: #dev
+                                                                        [16:16]
+  <huanghuang> sorry                                                    [16:43]
+      <xieshi> xyb: 换cache 是王道 - -                                  [16:46]
+      <xieshi> xyb: cache key
+         <xyb> xieshi: 哦，是准备doubandb修好了换key？                  [16:47]
+           *** zhaoyu (zhaoyu@192.168.1.6) has joined channel #dev      [17:02]
+           *** panglv (panglv@192.168.1.6) has joined channel #dev      [17:03]
+           *** lijian (Adium@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [17:16]
+           *** lijian (Adium@192.168.1.3) has joined channel #dev       [17:20]
+           *** panglv (panglv@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [17:37]
+           *** satoru (satoru@192.168.1.6) has quit: Connection closed  [17:56]
+           *** yangyang (dexteryy@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [18:01]
+           *** huanghuang (huanghuang@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [18:04]
+           *** mockee (mockee@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:14]
+           *** flex (flex@192.168.1.3) has quit: Connection closed      [18:17]
+           *** whyme (liuyue@192.168.1.3) has quit: Client exited       [18:21]
+           *** surui (surui@192.168.1.3) has quit: Connection closed    [18:22]
+           *** py (py@192.168.1.3) has quit: Connection closed          [18:26]
+           *** jollychang (Adium@192.168.1.6) has quit: Quit: Leaving.  [18:27]
+           *** pengzhefu (pengzhefu@192.168.1.6) has quit: Quit: Leaving.
+           *** jiawei (jiawei@192.168.1.3) has quit: Connection closed  [18:28]
+           *** guojing (user@192.168.1.6) has quit: Ping timeout: 121 seconds
+           *** jay (jay@192.168.1.6) has quit: Connection closed        [18:29]
+           *** sunyi (sunyi@192.168.1.3) has quit: Connection closed    [18:30]
+           *** liwei (zzzzhe@192.168.1.3) has left channel #dev: #dev   [18:31]
+           *** bear (Adium@192.168.1.6) has quit: Quit: Leaving.        [18:35]
+           *** surui (surui@192.168.1.3) has joined channel #dev        [18:36]
+           *** everbird (Adium@192.168.1.13) has quit: Quit: Leaving.   [18:37]
+      <davies> xyb, xieshi: doubandb 已经恢复好了，还有问题么？
+                                                                        [18:39]
+           *** haidong (Adium@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** laiwei (laiwei@192.168.1.6) has quit: Ping timeout: 121 seconds
+           *** xklxkl (xklxkl@192.168.1.6) has quit: Client exited      [18:40]
+           *** guozhuwen (Adium@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [18:41]
+         <xyb> davies: 我没看到什么问题。问问 xieshi、wangye、chentuo 吧
+                                                                        [18:42]
+           *** xyb (xyb@192.168.1.6) has quit: Connection closed
+      <xieshi> xyb: 日记能看到的都恢复了                                [18:44]
+      <xieshi> davies: 就是有一些小站的props已经写坏 应该就没法恢复了
+           *** huoxy (huoxy@192.168.1.6) has left channel #dev: "离开"
+           *** davies (davies@192.168.1.13) has quit: Ping timeout: 121
+               seconds                                                  [18:46]
+           *** anrs (anrs@192.168.1.6) has quit: Connection closed      [18:47]
+           *** yufeng (Adium@192.168.1.13) has quit: Ping timeout: 121 seconds
+                                                                        [18:50]
+           *** wangye (wangye@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:55]
+           *** xupeng (xupeng@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [18:56]
+
+[Sat Mar 31 2012]
+           *** You have joined channel #dev                             [13:19]
+           *** Users on #dev: lijian liwei lifei yufeng davies xiliang
+               luoweifeng anrs pengzhefu flex lijunpeng guohaochuan xuuss jay
+               ircbot laiwei mockee xupeng flycondor torpedoallen gaocheng
+               menghan ryutlis huoxy surui guibog chentuo everbird jesseyang
+               xyb zhuzhidong jiawei ryankung wangye qingfeng yq_intern
+               liuzhengyang guozhuwen bear mengwei xingben guojing fuyuquan
+               xieshi haidong hongqn lilinghui whyme huanghuang chenzheng
+               liaofeng sudan zhaoyu satoru jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** davies (davies@192.168.1.13) has quit: Client closed the
+               connection                                               [13:28]
+           *** davies (davies@192.168.1.13) has joined channel #dev     [13:29]
+           *** liuzhengyang (liuzhengyan@192.168.1.3) has left channel #dev:
+               #dev                                                     [13:37]
+           *** liuzhengyang (liuzhengyan@192.168.1.3) has joined channel #dev
+           *** liuzhengyang (liuzhengyan@192.168.1.3) has left channel #dev:
+               #dev                                                     [13:38]
+           *** zhangkejun (zhangkejun@192.168.1.3) has joined channel #dev
+                                                                        [13:53]
+           *** py (py@192.168.1.6) has joined channel #dev              [13:54]
+           *** panglv (panglv@192.168.1.3) has joined channel #dev      [14:03]
+           *** xieshi (xieshi@192.168.1.3) has quit: Client closed the
+               connection                                               [14:05]
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev
+           *** guibog (guibog@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [14:13]
+           *** guibog (guibog@192.168.1.3) has joined channel #dev      [14:15]
+           *** zhaoling (zhaoling@192.168.1.6) has joined channel #dev  [14:23]
+           *** yangyang (dexteryy@192.168.1.6) has joined channel #dev  [14:26]
+           *** sunyi (sunyi@192.168.1.3) has joined channel #dev        [14:29]
+           *** liaofeng (liaofeng@192.168.1.6) has quit: Ping timeout: 121
+               seconds
+           *** liaofeng (liaofeng@192.168.1.3) has joined channel #dev  [14:30]
+           *** liaofeng (liaofeng@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [14:34]
+           *** liaofeng (liaofeng@192.168.1.6) has joined channel #dev  [14:36]
+           *** liaofeng (liaofeng@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [14:40]
+           *** huanghuang (huanghuang@192.168.1.6) has quit: Quit: Leaving
+                                                                        [14:45]
+           *** liaofeng (liaofeng@192.168.1.6) has joined channel #dev  [14:46]
+           *** huanghuang (huanghuang@192.168.1.6) has joined channel #dev
+                                                                        [14:52]
+    <liaofeng> xyb: 社区可以提交到docs目录么？看邮件里写的是doc目录
+                                                                        [14:57]
+         <xyb> liaofeng: 可以。邮件里写错了                             [14:59]
+    <liaofeng> xyb: 我先在提交显示403 Forbidden，能帮忙查一下有没有权限么？
+                                                                        [15:01]
+         <xyb> liaofeng: 权限提示不是因为docs的问题，你有这个目录的写权限。
+                                                                        [15:06]
+    <liaofeng> xyb：多谢，svn st -q 发现svn根目录也有更改，其实是没有更改的，
+               revert后就能提交了                                       [15:09]
+         <xyb> 好                                                       [15:10]
+           *** mockee (mockee@192.168.1.6) has quit: Client closed the
+               connection                                               [15:11]
+           *** flycondor (flycondor@192.168.1.13) has quit: Client exited
+                                                                        [15:14]
+           *** mockee (mockee@192.168.1.6) has joined channel #dev      [15:39]
+           *** jesseyang (jesseyang@192.168.1.3) has quit: Client closed the
+               connection                                               [16:01]
+           *** jesseyang (jesseyang@192.168.1.3) has joined channel #dev
+                                                                        [16:03]
+           *** zhaoyu (zhaoyu@192.168.1.3) has quit: Client closed the
+               connection                                               [16:04]
+           *** zhaoyu (zhaoyu@192.168.1.3) has joined channel #dev
+           *** surui (surui@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [16:06]
+           *** sudan (Adium@192.168.1.13) has quit: Client closed the
+               connection                                               [16:13]
+           *** sudan (Adium@192.168.1.13) has joined channel #dev
+           *** xieshi (xieshi@192.168.1.3) has quit: Client closed the
+               connection                                               [16:19]
+           *** jiawei (jiawei@192.168.1.3) has quit: Client closed the
+               connection
+           *** jay (jay@192.168.1.3) has quit: Client closed the connection
+                                                                        [16:20]
+           *** everbird (Adium@192.168.1.13) has quit: Client closed the
+               connection
+           *** sudan (Adium@192.168.1.13) has quit: Ping timeout: 121 seconds
+                                                                        [16:21]
+           *** haidong (Adium@192.168.1.6) has quit: Client closed the
+               connection
+           *** guozhuwen (Adium@192.168.1.6) has quit: Ping timeout: 121
+               seconds
+           *** laiwei (laiwei@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** whyme (liuyue@192.168.1.6) has quit: Ping timeout: 121 seconds
+
+[Thu Apr  5 2012]
+           *** You have joined channel #dev                             [14:35]
+           *** Users on #dev: jollychang jay menghan xieshi liwei lvting
+               gaocheng flycondor xiliang laiwei whyme anrs wangye
+               torpedoallen satoru ircbot yufeng yangyang fuyuquan davies
+               haidong mengwei xuuss flex pengzhefu xupeng ryutlis chenzheng
+               py qingfeng lifei xklxkl luoweifeng yangliu liaofeng luoxi
+               zhaoling surui lijunpeng xyb huoxy bear panglv ryankung 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+     <xiliang> ALL! 咱们有完整的邮编和省市数据么？                      [14:51]
+          <py> haidong: 同城有吧?                                       [14:53]
+     <haidong> py: 同城貌似没有邮编                                     [14:54]
+     <haidong> 有省市的的数据
+     <xiliang> haidong，同城也没邮编？                                  [14:57]
+           *** chentuo (chentuo@192.168.1.13) has joined channel #dev
+     <haidong> xiliang: 稍等，我确认一下
+     <xiliang> ok                                                       [14:58]
+     <haidong> xiliang: 没有邮编
+     <xiliang> haidong，thx，我再找找                                   [14:59]
+     <haidong> xiliang: 同城的数据，严格的说，都没有严谨的行政区划的概念，只有
+               一个树形结构：某个地域下面有哪些地域。                   [15:00]
+     <xiliang> 那个ip.txt同城也在用吧？只有城市没有省                   [15:01]
+           *** totty (totty@192.168.1.6) has joined channel #dev        [15:05]
+           *** liwei (zzzzhe@192.168.1.3) has quit: Client closed the
+               connection                                               [15:15]
+           *** liwei (zzzzhe@192.168.1.3) has joined channel #dev       [15:16]
+           *** lilinghui (Adium@192.168.1.3) has joined channel #dev    [15:19]
+           *** xiaoxiao (xiaoxiao@192.168.1.3) has joined channel #dev  [15:30]
+     <xiliang> haidong，这个树形结构的代码在哪？                        [15:32]
+     <haidong> loc/model/__init__.py                                    [15:33]
+     <xiliang> thx
+     <haidong> 里面有一个class叫Loc
+     <xiliang> ok，正在看                                               [15:35]
+           *** chentuo (chentuo@192.168.1.13) has quit: Ping timeout: 121
+               seconds                                                  [15:41]
+           *** wangye (wangye@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [15:50]
+           *** wangye (wangye@192.168.1.3) has joined channel #dev
+           *** xuuss (qa@192.168.1.13) has left channel #dev: #dev      [15:53]
+           *** guohaochuan (wooparadog@192.168.1.3) has joined channel #dev
+                                                                        [15:56]
+           *** xupeng (xupeng@192.168.1.3) has quit: Client closed the
+               connection                                               [16:09]
+           *** xupeng (xupeng@192.168.1.3) has joined channel #dev      [16:10]
+           *** xiaoxiao (xiaoxiao@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [16:13]
+           *** zhangkejun (zhangkejun@192.168.1.6) has joined channel #dev
+                                                                        [16:22]
+           *** xiaoxiao (xiaoxiao@192.168.1.3) has joined channel #dev  [16:25]
+           *** guohaochuan (wooparadog@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [16:48]
+           *** guohaochuan (wooparadog@192.168.1.3) has joined channel #dev
+           *** jollychang (Adium@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [16:52]
+           *** jollychang (Adium@192.168.1.3) has joined channel #dev
+           *** chentuo (chentuo@192.168.1.13) has joined channel #dev   [16:57]
+           *** jollychang (Adium@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [17:24]
+           *** jollychang (Adium@192.168.1.6) has joined channel #dev   [17:25]
+           *** zhuzhidong (Adium@192.168.1.6) has joined channel #dev   [17:37]
+       <surui> guojing: loc.model.find_city_from_coords 可用么，性能如何
+                                                                        [17:39]
+           *** torpedoallen (renph@192.168.1.3) has quit: Connection closed
+                                                                        [17:42]
+           *** haidong (Adium@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [17:45]
+           *** haidong (Adium@192.168.1.6) has joined channel #dev      [17:47]
+           *** davies (davies@192.168.1.13) has quit: Client exited     [18:06]
+           *** flex (flex@192.168.1.6) has quit: Connection closed      [18:07]
+           *** satoru (satoru@192.168.1.3) has quit: Connection closed  [18:12]
+           *** anrs (anrs@192.168.1.3) has quit: Connection closed      [18:18]
+           *** bear (Adium@192.168.1.6) has quit: Quit: Leaving.        [18:21]
+           *** pengzhefu (pengzhefu@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [18:25]
+           *** jollychang (Adium@192.168.1.6) has quit: Quit: Leaving.  [18:29]
+           *** lvting (lvting@192.168.1.6) has quit: Client exited      [18:30]
+       <surui> laiwei: huoxy: 360浏览器在用户激活账号的时候报网站有危险，是咱们
+               https证书问题么
+           *** lilinghui (Adium@192.168.1.3) has left channel #dev: #dev
+                                                                        [18:32]
+           *** gaocheng (Miko_Gao@192.168.1.6) has quit: Quit: Leaving.
+           *** panglv (panglv@192.168.1.6) has quit: Client exited
+           *** wangye (wangye@192.168.1.3) has quit: Connection closed  [18:33]
+           *** laiwei (laiwei@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:34]
+           *** torpedoallen (renph@192.168.1.3) has joined channel #dev
+                                                                        [18:35]
+           *** py (py@192.168.1.6) has quit: Connection closed          [18:36]
+           *** haidong (Adium@192.168.1.6) has quit: Ping timeout: 121 seconds
+       <huoxy> 好，明儿研究研究，                                       [18:41]
+       <huoxy> 咱没得罪360吧？？？，
+           *** huoxy (huoxy@192.168.1.3) has left channel #dev: "离开"
+                                                                        [18:43]
+           *** jay (jay@192.168.1.6) has quit: Connection closed        [18:44]
+           *** whyme (liuyue@192.168.1.3) has quit: Client exited
+           *** lijunpeng (lijunpeng@192.168.1.3) has quit: Connection closed
+                                                                        [18:46]
+           *** luoxi (luoxi@192.168.1.13) has quit: Connection closed   [18:48]
+           *** ryutlis (ryutlis@192.168.1.6) has quit: Quit: Leaving.   [18:50]
+           *** liwei (zzzzhe@192.168.1.3) has left channel #dev: #dev   [18:51]
+           *** xyb (xyb@192.168.1.6) has quit: Connection closed        [18:52]
+           *** flex (flex@192.168.1.3) has joined channel #dev          [18:53]
+           *** totty (totty@192.168.1.6) has quit: Quit: Leaving
+           *** xklxkl (xklxkl@192.168.1.3) has quit: Client exited      [18:54]
+           *** yangyang (dexteryy@192.168.1.6) has quit: Quit: Linkinus -
+               http://linkinus.com                                      [18:55]
+
+[Fri Apr  6 2012]
+           *** You have joined channel #dev                             [10:37]
+           *** Users on #dev: haidong jay huoxy xupeng gaocheng surui liaofeng
+               yufeng ryutlis luoxi lijunpeng satoru ircbot lifei xiaoxiao
+               menghan pengzhefu guohaochuan flycondor anrs davies liwei
+               mengwei chenzheng ryankung luoweifeng laiwei bear yangyang
+               wangye zhaoling flex xuuss xyb jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** jollychang (Adium@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [10:40]
+           *** jollychang (Adium@192.168.1.3) has joined channel #dev   [10:41]
+           *** py (py@192.168.1.3) has joined channel #dev              [10:44]
+           *** qingfeng (qingfeng@192.168.1.3) has joined channel #dev  [10:48]
+           *** zhangkejun (zhangkejun@192.168.1.6) has joined channel #dev
+           *** ryutlis (ryutlis@192.168.1.3) has quit: Quit: Leaving.   [10:50]
+           *** ryutlis (ryutlis@192.168.1.3) has joined channel #dev
+           *** panglv (panglv@192.168.1.3) has joined channel #dev      [10:51]
+           *** xingben (xingben@192.168.1.6) has joined channel #dev    [10:55]
+           *** lilinghui (Adium@192.168.1.6) has joined channel #dev    [10:57]
+           *** whyme (liuyue@192.168.1.3) has joined channel #dev       [11:00]
+           *** yangyang (dexteryy@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [11:01]
+           *** chentuo (chentuo@192.168.1.13) has joined channel #dev   [11:02]
+           *** xieshi (xieshi@192.168.1.6) has joined channel #dev      [11:09]
+           *** xiliang (xiliang@192.168.1.3) has joined channel #dev    [11:14]
+           *** mockee (mockee@192.168.1.6) has joined channel #dev      [11:17]
+           *** fuyuquan (fuyuquan@192.168.1.3) has joined channel #dev  [11:33]
+           *** mockee (mockee@192.168.1.6) has quit: Connection closed  [11:58]
+           *** yangyang (dexteryy@192.168.1.3) has joined channel #dev  [12:20]
+           *** yangyang (dexteryy@192.168.1.3) is now known as yangyang|away
+                                                                        [12:25]
+           *** chentuo (chentuo@192.168.1.13) has quit: Ping timeout: 121
+               seconds                                                  [12:32]
+           *** xingben (xingben@192.168.1.6) has quit: Connection closed
+                                                                        [12:33]
+           *** chentuo (chentuo@192.168.1.13) has joined channel #dev   [12:34]
+           *** py (py@192.168.1.3) has quit: Ping timeout: 121 seconds  [12:40]
+           *** mockee (mockee@192.168.1.6) has joined channel #dev      [12:42]
+           *** zhangkejun (zhangkejun@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [13:25]
+           *** xieshi (xieshi@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [13:26]
+           *** py (py@192.168.1.6) has joined channel #dev              [13:32]
+           *** yangyang|away (dexteryy@192.168.1.3) is now known as yangyang
+                                                                        [13:33]
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev      [13:40]
+           *** xieshi (xieshi@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [13:48]
+           *** yangyang (dexteryy@192.168.1.3) has quit: Client closed the
+               connection                                               [13:50]
+           *** yangyang (dexteryy@192.168.1.3) has joined channel #dev
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev      [13:55]
+           *** zhangkejun (zhangkejun@192.168.1.3) has joined channel #dev
+                                                                        [14:01]
+       <huoxy> ALL! 有谁在
+               theoden:/var/shire/mobile/data/sessions/container_file下放了大量
+               小文件么，
+       <surui> ALL! 开团，有想买SSD的么？
+               http://www.douban.com/people/suave/status/900226646/     [14:08]
+      <ircbot> Title: Suave的广播 (at www.douban.com)
+        <flex> 有，公司想买企业级的，10k左右都能商量～                  [14:09]
+        <flex> 这能团么 =。－
+    <fuyuquan> - -……..                                                  [14:12]
+    <fuyuquan> surui:你可以找豆外公建一个单
+       <surui> flex: 放过我吧。。。                                     [14:13]
+           *** xupeng (xupeng@192.168.1.3) has quit: Client closed the
+               connection                                               [14:15]
+           *** xupeng (xupeng@192.168.1.3) has joined channel #dev
+       <huoxy> 有谁在theoden:/var/shire/mobile/data/sessions下放了39757个文件么
+                                                                        [14:22]
+          <py> huoxy: 怀疑是以前m.douban的预发布环境生成的session
+                                                                        [14:26]
+       <huoxy> py, 还有用么，你看看                                     [14:27]
+          <py> 干掉吧》
+       <huoxy> ok
+           *** wangye (wangye@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [14:46]
+           *** wangye (wangye@192.168.1.3) has joined channel #dev      [14:47]
+           *** wangye (wangye@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [14:52]
+           *** wangye (wangye@192.168.1.6) has joined channel #dev
+           *** lijunpeng (lijunpeng@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [14:53]
+           *** lijunpeng (lijunpeng@192.168.1.3) has joined channel #dev
+      <xieshi> pic.html   
+      <xieshi> vid.html
+           *** zhangchi (zhangchi@192.168.1.13) has joined channel #dev
+           *** jay (jay@192.168.1.6) has quit: Connection closed        [15:04]
+           *** jay (jay@192.168.1.6) has joined channel #dev            [15:06]
+       <luoxi> ALL, 谁能帮忙解释下 luzong/discussion/__init__中(line:575,619)
+               if type == SUBJECT_DISCUSSION：获取discussion就忽略type。这是为
+               什么？                                                   [15:16]
+          <py> luoxi: http://svn.douban.com/projects/shire/changeset/16613 可以
+               问bear                                                   [15:39]
+          <py> 估计是一开始subject的讨论没传type进去.
+           *** xieshi (xieshi@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [15:40]
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev      [15:48]
+           *** duanzr (duanzr@192.168.1.6) has joined channel #dev      [15:53]
+           *** duanzr (duanzr@192.168.1.6) has left channel #dev: #dev  [15:59]
+           *** xieshi (xieshi@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [16:04]
+           *** xiaoxiao (xiaoxiao@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [16:08]
+           *** xieshi (xieshi@192.168.1.6) has joined channel #dev      [16:11]
+      <wangye> huoxy:小玉，anduin上线的时候可以更新/var/anduin么。这个跟最新代
+               码已经很脱节了，虽说可以用/var/shuo-test，但是这个目录设置跟生产
+               环境不同我还是觉得不妥                                   [16:35]
+      <wangye> fili上                                                   [16:36]
+       <huoxy> 额，好啊
+       <huoxy> wangye, 现在上线脚本里有fili啊                           [16:37]
+           *** lilinghui (Adium@192.168.1.6) has quit: Client closed the
+               connection                                               [16:39]
+           *** lilinghui (Adium@192.168.1.6) has joined channel #dev    [16:40]
+      <wangye> fili:我看/var/anduin里的文件更新时间都是3月20            [16:41]
+      <wangye> huoxy:
+           *** jay (jay@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [16:44]
+           *** jay (jay@192.168.1.3) has joined channel #dev            [16:45]
+           *** xieshi (xieshi@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [16:59]
+           *** flycondor (flycondor@192.168.1.13) has quit: Client exited
+                                                                        [17:01]
+           *** xieshi (xieshi@192.168.1.6) has joined channel #dev      [17:23]
+           *** whyme (liuyue@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [17:29]
+           *** satoru (satoru@192.168.1.3) has quit: Connection closed  [18:02]
+           *** flex (flex@192.168.1.3) has quit: Connection closed      [18:11]
+           *** yangyang (dexteryy@192.168.1.3) is now known as yangyang|away
+                                                                        [18:15]
+           *** yangyang|away (dexteryy@192.168.1.3) is now known as yangyang
+                                                                        [18:18]
+           *** jollychang (Adium@192.168.1.3) has quit: Quit: Leaving.
+           *** lilinghui (Adium@192.168.1.6) has left channel #dev: #dev
+           *** xupeng (xupeng@192.168.1.3) has quit: Connection closed  [18:20]
+           *** pengzhefu (pengzhefu@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:23]
+           *** xieshi (xieshi@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:24]
+           *** bear (Adium@192.168.1.3) has quit: Quit: Leaving.        [18:25]
+           *** panglv (panglv@192.168.1.3) has quit: Client exited      [18:26]
+           *** laiwei (laiwei@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [18:30]
+           *** haidong (Adium@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:31]
+           *** py (py@192.168.1.6) has quit: Connection closed          [18:33]
+           *** anrs (anrs@192.168.1.6) has quit: Connection closed
+           *** huoxy (huoxy@192.168.1.3) has quit: Connection closed    [18:34]
+           *** chenzheng (jaimechen@192.168.1.6) has quit: Quit: Leaving.
+           *** zhangchi (zhangchi@192.168.1.13) has quit: Connection closed
+                                                                        [18:35]
+           *** lijunpeng (lijunpeng@192.168.1.3) has quit: Connection closed
+           *** gaocheng (Miko_Gao@192.168.1.6) has quit: Quit: Leaving.
+           *** lijunpeng (lijunpeng@192.168.1.3) has joined channel #dev
+                                                                        [18:38]
+           *** zhangchi (zhangchi@192.168.1.13) has joined channel #dev
+                                                                        [18:39]
+           *** jay (jay@192.168.1.3) has quit: Connection closed        [18:40]
+           *** luoxi (luoxi@192.168.1.13) has quit: Connection closed
+           *** zhangkejun (zhangkejun@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:41]
+           *** mockee (mockee@192.168.1.6) has quit: Connection closed  [18:43]
+           *** xuuss (qa@192.168.1.13) has left channel #dev: #dev      [18:44]
+           *** liaofeng (liaofeng@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:45]
+           *** guohaochuan (wooparadog@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:47]
+           *** xyb (xyb@192.168.1.3) has quit: Connection closed        [18:48]
+           *** lifei (clyde@192.168.1.6) has quit: Quit: Leaving.       [18:53]
+           *** wangye (wangye@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:57]
+           *** xiliang (xiliang@192.168.1.3) has quit: Quit: Leaving    [18:59]
+           *** menghan (menghan@192.168.1.6) has quit: Quit: Leaving.   [19:02]
+
+[Thu Apr 19 2012]
+           *** You have joined channel #dev                             [11:37]
+           *** Users on #dev: surui sudan xyb torpedoallen ryutlis zhangchi
+               changsheng zhaoling satoru huanghuang ircbot sunyi jollychang
+               bear flex anrs guozhuwen lifei whyme lilinghui zhaoyu xupeng
+               xklxkl ryankung panglv wangye fuyuquan xingben jiawei xuuss
+               guohaochuan guojing luoxi lijunpeng menghan yufeng laiwei
+               luoweifeng liwei xieshi mengwei chentuo guibog yangliu liaofeng
+               chenzheng 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** torpedoallen (renph@192.168.1.3) has quit: Client closed the
+               connection                                               [11:50]
+           *** jiawei (jiawei@192.168.1.3) has quit: Quit: Leaving.     [11:51]
+           *** torpedoallen (renph@192.168.1.3) has joined channel #dev
+                                                                        [11:53]
+           *** luoxi (luoxi@192.168.1.13) has quit: Connection closed   [11:56]
+           *** ryutlis (ryutlis@192.168.1.6) has quit: Quit: Leaving.   [12:00]
+
+[Thu Sep 20 2012]
+           *** You have joined channel #dev                             [14:37]
+           *** Users on #dev: lilinghui ircbot haibo xupeng yangqing xingben
+               jay huanghuang davies lifei anrs tianzhongbo zhangchi qianlong
+               luoxi pengzhefu yufeng liaofeng whyme wangfei qingfeng jiawei
+               sunyi xyb guohaochuan sudan liukang torpedoallen linju surui
+               gonghao chentuo yangliu everbird menghan cxc guozhuwen wangye
+               hongqn huoxy fuyuquan flex luchuan hstan lijunpeng kongzhen
+               guibog chenzheng mengwei zhaoyu luoweifeng gaocheng zhaoling
+               xuuss panglv jasonzhao jesseyang jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2012/09/14 10:48:15
+           *** hongqn (hongqn@192.168.1.189) has quit: Ping timeout: 121
+               seconds
+           *** hongqn (hongqn@192.168.1.190) has joined channel #dev
+           *** Your new nickname is ryankung                            [14:40]
+           *** liwei (Tony_lee@192.168.1.189) has joined channel #dev   [14:42]
+
+[Thu Sep 20 2012]
+           *** You have joined channel #dev                             [14:56]
+           *** Users on #dev: lilinghui ircbot haibo xupeng yangqing xingben
+               jay huanghuang davies lifei anrs tianzhongbo zhangchi qianlong
+               luoxi pengzhefu liwei kongzhen hongqn yufeng liaofeng whyme
+               wangfei qingfeng jiawei sunyi xyb guohaochuan sudan liukang
+               torpedoallen linju surui gonghao chentuo yangliu everbird
+               menghan cxc guozhuwen wangye huoxy fuyuquan flex luchuan hstan
+               lijunpeng guibog chenzheng mengwei zhaoyu luoweifeng gaocheng
+               zhaoling xuuss panglv jasonzhao jesseyang 
+           *** Users on #dev: jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2012/09/14 10:48:15
+
+[Thu Sep 20 2012]
+           *** You have joined channel #dev                             [15:05]
+           *** Users on #dev: lilinghui ircbot haibo xupeng yangqing xingben
+               jay huanghuang davies lifei anrs tianzhongbo zhangchi qianlong
+               luoxi kongzhen pengzhefu liwei hongqn yufeng liaofeng whyme
+               wangfei qingfeng jiawei sunyi xyb guohaochuan sudan liukang
+               torpedoallen linju surui gonghao chentuo yangliu everbird
+               menghan cxc guozhuwen wangye huoxy fuyuquan flex luchuan hstan
+               lijunpeng guibog chenzheng mengwei zhaoyu luoweifeng gaocheng
+               zhaoling xuuss panglv jasonzhao jesseyang 
+           *** Users on #dev: jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2012/09/14 10:48:15
+         #dev> /nick ryankung
+           *** Your new nickname is ryankung
+           *** haidong (Adium@192.168.1.188) has joined channel #dev    [15:11]
+           *** xieshi (xieshi@192.168.1.190) has joined channel #dev    [15:14]
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has joined channel #dev
+                                                                        [15:21]
+           *** jiawei (jiawei@192.168.1.188) has quit: Quit: Leaving.
+           *** liwei (Tony_lee@192.168.1.189) has left channel #dev: #dev
+                                                                        [15:24]
+           *** liwei (Tony_lee@192.168.1.189) has joined channel #dev   [15:25]
+           *** flex (flex@192.168.1.188) has quit: Connection closed    [15:49]
+           *** haidong (Adium@192.168.1.188) has quit: Quit: Leaving.   [16:00]
+           *** haidong (Adium@192.168.1.188) has joined channel #dev
+           *** zengfanyu (zengfanyu@192.168.1.190) has joined channel #dev
+                                                                        [16:08]
+           *** haidong (Adium@192.168.1.188) has quit: Quit: Leaving.   [16:18]
+           *** haidong (Adium@192.168.1.188) has joined channel #dev    [16:20]
+           *** flex (flex@192.168.1.188) has joined channel #dev        [16:26]
+           *** jiawei (jiawei@192.168.1.188) has joined channel #dev    [16:27]
+   <lijunpeng> 2012-09-20 16:39:32,893 [root     ] Enter, port=0.       [16:41]
+   <lijunpeng> 2012-09-20 16:39:32,895 [root     ] Enter.
+   <lijunpeng> liwei: 我们有一个 dpark 脚本
+               http://code.dapps.douban.com/bee/source/blob/?path=dpark%2Ffrom_to_pv.py&rev=master
+               经常 print 2 行就卡住 ： 
+      <ircbot> Title: Code (at code.dapps.douban.com)
+           *** hstan (Adium@192.168.1.189) has quit: Ping timeout: 121 seconds
+                                                                        [16:56]
+       <liwei> lijunpeng: 你单机运行了..                                [17:01]
+           *** hstan (Adium@192.168.1.188) has joined channel #dev
+           *** huanghuang (huanghuang@192.168.1.190) has quit: Ping timeout:
+               121 seconds                                              [17:15]
+           *** huanghuang (huanghuang@192.168.1.189) has joined channel #dev
+           *** lijunpeng (lijunpeng@192.168.1.190) has quit: Ping timeout: 121
+               seconds
+           *** luchuan (luchuan@192.168.1.188) has quit: Ping timeout: 121
+               seconds                                                  [17:16]
+           *** lijunpeng (lijunpeng@192.168.1.189) has joined channel #dev
+                                                                        [17:18]
+           *** luchuan (luchuan@192.168.1.189) has joined channel #dev  [17:19]
+           *** haibo (haibo@192.168.1.190) has quit: Ping timeout: 121 seconds
+                                                                        [17:24]
+           *** haibo (haibo@192.168.1.188) has joined channel #dev
+           *** wangye (wangye@192.168.1.189) has quit: Ping timeout: 121
+               seconds                                                  [17:25]
+           *** wangye (wangye@192.168.1.189) has joined channel #dev
+           *** mengwei (mengwei@192.168.1.190) has quit: Ping timeout: 121
+               seconds
+           *** mengwei (mengwei@192.168.1.188) has joined channel #dev
+           *** haibo (haibo@192.168.1.188) has quit: Connection closed
+           *** menghan (menghan@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [17:26]
+           *** haibo (haibo@192.168.1.188) has joined channel #dev
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has quit: Ping timeout:
+               121 seconds                                              [17:27]
+           *** guozhuwen (Adium@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [17:28]
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has joined channel #dev
+                                                                        [17:29]
+           *** menghan (menghan@192.168.1.189) has joined channel #dev  [17:33]
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has quit: Ping timeout:
+               121 seconds                                              [17:41]
+           *** zhuzhidong (zhuzhidong@192.168.1.189) has joined channel #dev
+           *** yangqing (qing@192.168.1.188) has quit: Ping timeout: 121
+               seconds
+           *** davies (davies@192.168.1.188) has quit: Ping timeout: 121
+               seconds                                                  [17:43]
+           *** davies (davies@192.168.1.188) has joined channel #dev
+           *** guozhuwen (Adium@192.168.1.190) has joined channel #dev  [17:49]
+           *** haibo (haibo@192.168.1.188) has quit: Client closed the
+               connection
+           *** haibo (haibo@192.168.1.188) has joined channel #dev
+           *** menghan (menghan@192.168.1.189) has quit: Quit: Leaving.
+                                                                        [17:55]
+           *** yangqing (qing@192.168.1.188) has joined channel #dev    [17:56]
+           *** guozhuwen (Adium@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [18:01]
+           *** hstan (Adium@192.168.1.188) has quit: Ping timeout: 121 seconds
+           *** hstan (Adium@192.168.1.189) has joined channel #dev      [18:02]
+           *** zhuzhidong (zhuzhidong@192.168.1.189) has quit: Ping timeout:
+               121 seconds
+           *** zhuzhidong (zhuzhidong@192.168.1.190) has joined channel #dev
+           *** jasonzhao (jasonzhao@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [18:03]
+           *** menghan (menghan@192.168.1.190) has joined channel #dev
+           *** menghan (menghan@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [18:06]
+           *** menghan (menghan@192.168.1.190) has joined channel #dev  [18:07]
+           *** wangye (wangye@192.168.1.189) has quit: Connection closed
+                                                                        [18:08]
+           *** zhuzhidong (zhuzhidong@192.168.1.190) has quit: Connection
+               closed
+           *** haibo (haibo@192.168.1.188) has quit: Connection closed  [18:09]
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has joined channel #dev
+           *** hstan (Adium@192.168.1.189) has quit: Quit: Leaving.
+           *** menghan (menghan@192.168.1.190) has quit: Ping timeout: 121
+               seconds                                                  [18:13]
+           *** zhuzhidong (zhuzhidong@192.168.1.188) has quit: Ping timeout:
+               121 seconds
+           *** zhuzhidong (zhuzhidong@192.168.1.190) has joined channel #dev
+           *** menghan (menghan@192.168.1.188) has joined channel #dev  [18:14]
+           *** luoxi (luoxi@192.168.1.188) has quit: Connection closed  [18:21]
+           *** wangye (wangye@192.168.1.190) has joined channel #dev    [18:25]
+           *** davies (davies@192.168.1.188) has quit: Client exited
+           *** whyme (liuyue@192.168.1.190) has quit: Client exited     [18:28]
+           *** qingfeng (qingfeng@192.168.1.189) has quit: Connection closed
+                                                                        [18:30]
+           *** lijunpeng (lijunpeng@192.168.1.189) has quit: Connection closed
+           *** wangye (wangye@192.168.1.190) has quit: Connection closed
+           *** linju (linju@192.168.1.189) has quit: Quit: WeeChat 0.3.7
+           *** xingben (xingben@192.168.1.189) has quit: Connection closed
+           *** huanghuang (huanghuang@192.168.1.189) has quit: Connection
+               closed                                                   [18:31]
+           *** cxc (cxc@192.168.1.190) has quit: Connection closed      [18:32]
+           *** xyb (xyb@192.168.1.189) has quit: Connection closed
+           *** pengzhefu (pengzhefu@192.168.1.188) has quit: Quit: Leaving.
+                                                                        [18:33]
+           *** lifei (clyde@192.168.1.189) has quit: Quit: Leaving.
+           *** sudan (Adium@192.168.1.190) has quit: Quit: Leaving.     [18:34]
+           *** jiawei (jiawei@192.168.1.188) has quit: Quit: Leaving.
+           *** jay (jay@192.168.1.190) has quit: Connection closed      [18:35]
+           *** panglv (panglv@192.168.1.188) has quit: Client exited    [18:36]
+           *** jesseyang (jesseyang@192.168.1.189) has quit: Client exited
+                                                                        [18:38]
+           *** sunyi (sunyi@192.168.1.188) has quit: Connection closed
+           *** huoxy (huoxy@192.168.1.190) has quit: Connection closed
+           *** anrs (anrs@192.168.1.188) has quit: Connection closed
+           *** liaofeng (liaofeng@192.168.1.190) has quit: Quit: Leaving.
+                                                                        [18:39]
+           *** zhangchi (zhangchi@192.168.1.190) has quit: Ping timeout: 121
+               seconds
+           *** yangqing (qing@192.168.1.188) has quit: Connection closed
+                                                                        [18:40]
+           *** wangfei (wangfei@192.168.1.189) has quit: Ping timeout: 121
+               seconds                                                  [18:41]
+           *** jollychang (jollychang@192.168.1.188) has quit: Connection
+               closed
+           *** fuyuquan (fuyuquan@192.168.1.190) has quit: Client exited
+           *** hongqn (hongqn@192.168.1.190) has quit: Connection closed
+           *** luoweifeng (luoweifeng@192.168.1.188) has quit: Connection
+               closed                                                   [18:43]
+           *** lilinghui (Adium@192.168.1.190) has quit: Quit: Leaving.
+                                                                        [18:44]
+           *** xieshi (xieshi@192.168.1.190) has quit: Quit: Leaving.
+           *** luchuan (luchuan@192.168.1.189) has quit: Connection closed
+                                                                        [18:45]
+           *** chenzheng (jaime@192.168.1.188) has quit: Ping timeout: 121
+               seconds                                                  [18:46]
+           *** liukang (liukang@192.168.1.189) has quit: Ping timeout: 121
+               seconds
+           *** guohaochuan (guohaochuan@192.168.1.190) has quit: Ping timeout:
+               121 seconds
+           *** gonghao (gonghao@192.168.1.190) has quit: Client exited  [18:47]
+           *** liwei (Tony_lee@192.168.1.189) has quit: Quit: Leaving.  [18:49]
+           *** tianzhongbo (tianzhongbo@192.168.1.188) has quit: Quit:
+               Leaving.                                                 [18:52]

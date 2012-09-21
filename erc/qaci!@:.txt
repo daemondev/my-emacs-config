@@ -1,0 +1,6 @@
+
+[Mon Mar 26 2012]
+        <qaci> Oh no! You're suspected of having broken
+               gondor-dev-unittest-10380:
+               http://qaci.intra.douban.com/job/gondor-dev-unittest-10380/600/
+                                                                        [17:40]

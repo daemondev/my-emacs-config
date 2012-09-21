@@ -1,0 +1,40 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Sep 10 14:39:19 2012
+;; Desktop file format version 206
+;; Emacs version 24.1.2
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("tab-wid" "pku" "\"" "start" "‘²ú‘Æ·‘¾­‘Àí" "intern" "try" "INSERT" "sidebar" "pre1" "‘ÊÓ‘¾õ‘Éè‘¼Æ‘Ê¦" "‘²â‘ÊÔ" "‘ÔË‘Î¬‘¹¤‘³Ì‘Ê¦" "‘Ïµ‘Í³‘¼Ü‘¹¹‘Ê¦" "‘Ïµ‘Í³‘¹¤‘³Ì‘Ê¦" "jobs"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "~/.emacs.d/.emacs" "~/lab/websocket/websocketServer.c" "~/.emacs.d/.emacs" "~/.emacs" "~/lab/websocket/websocketServer.c" "~/lab/websocket/websocketServer.h" "~/Dev/lab/ws_server.py" "~/note/book_item.org" "~/Downloads/csdn.sql" "~/Dev/mordor/utils/SQLFormatter.py" "~/Dev/Projs/RainbowPad/ws_server.py" "~/Dev/lab/demo.html" "~/Dev/Projs/RainbowPad/js/webSocket.js" "~/Dev/Projs/RainbowPad/templates/sockTest.html" "~/Dev/lab/wsServer.py" "/Users/ryan/ryankung.github.com/index.html" "~/doubandev/vagrant/home/vagrant/shire/docs/about/intern.html" "~/doubandev/vagrant/home/vagrant/shire/docs/about/campus.html" "~/doubandev/vagrant/home/vagrant/shire/luz/jobs/__init__.py" "/Users/ryan/Dev/mordor/utils/SQLFormatter.py" "~/doubandev/vagrant/home/vagrant/shire/luz/__init__.py" "~/doubandev/vagrant/home/vagrant/shire/docs/about/teamup.html" "~/doubandev/vagrant/home/vagrant/shire/luz/mobile/__init__.py" "/Users/ryan/Dev/mordor/apps/trip_tip/data/in.sql" "/Users/ryan/Dev/mordor/apps/trip_tip/models.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/ryan/.emacs.d/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(undo-tree-mode auto-complete-mode yas/minor-mode hs-minor-mode)
+  15333
+  '(15134 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/ryan/lab/websocket/websocketServer.c"
+  "websocketServer.c"
+  'c-mode
+  '(abbrev-mode undo-tree-mode auto-complete-mode yas/minor-mode hs-minor-mode)
+  72
+  '(84 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

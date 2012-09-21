@@ -1,0 +1,200 @@
+
+[Tue Mar 20 2012]
+           *** You have joined channel #dev                             [22:10]
+           *** Users on #dev: panglv guohaochuan torpedoallen flex guibog
+               changsheng wangye ircbot lijunpeng xingben surui mengwei davies
+               sunyi zhaoling xieshi kongzhen zhangchi huoxy 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+        <flex> huoxy你有空么？                                          [22:11]
+       <huoxy> en 
+       <huoxy> flex
+        <flex> 我在windows下面，你跟下ark的问题吧
+       <huoxy> 好，我也在win下，
+        <flex> 。。。。                                                 [22:12]
+        <flex> 那算了 =。=
+       <huoxy> 那个，直接找他们rollback
+           *** mockee (mockee@192.168.1.6) has joined channel #dev      [22:13]
+       <huoxy> 没收到报警                                               [22:14]
+        <flex> 匿名页面是正常的
+        <flex> 登录才出问题
+        <flex> huoxy
+       <huoxy> 。。。                                                   [22:15]
+         #dev> /nickname RyanKung                                       [22:16]
+           *** NICKNAME: Unknown command
+         #dev> /nick RyanKung                                           [22:19]
+           *** Your new nickname is RyanKung
+           *** jiawei (jiawei@192.168.1.3) has joined channel #dev      [22:20]
+         #dev> /join #gondor                                            [22:22]
+           *** guohaochuan (wooparadog@192.168.1.6) has quit: Connection
+               closed                                                   [22:24]
+      <xieshi> 这个问题阿                                               [22:29]
+      <xieshi> 得改代码
+       <sunyi> 恩是登录后过滤qzone用户的那个方法引用不到了。。今天corelib/user
+               改代码了是么？
+      <xieshi> 对                                                       [22:30]
+       <sunyi> 改完上完线了                                             [22:35]
+       <sunyi> by jiawei
+    <RyanKung> 呀，真快。                                               [22:36]
+        <flex> 赞                                                       [22:37]
+        <flex> 可以安心去睡觉了
+           *** ryutlis (ryutlis@192.168.1.3) has joined channel #dev
+       <sunyi> 辛苦各位。。。                                           [22:39]
+           *** panglv (panglv@192.168.1.6) has quit: Client exited
+           *** jiawei (jiawei@192.168.1.3) has quit: Quit: Leaving.     [22:42]
+           *** flex (flex@192.168.1.6) has quit: Quit:                  [22:49]
+           *** zhangchi (zhangchi@192.168.1.13) has quit: Connection closed
+                                                                        [22:52]
+
+[Fri Mar 23 2012]
+           *** You have joined channel #dev                             [18:15]
+           *** Users on #dev: xupeng liaofeng gaocheng mockee chenzheng
+               torpedoallen liwei fuyuquan xieshi kongzhen davies lifei anrs
+               guozhuwen ircbot pengzhefu chentuo py laiwei zhangchi bear jay
+               zhaoling luoweifeng luoxi huoxy jiawei wangye ryutlis surui
+               zhaoyu mengwei hongqn yangyang lilinghui guibog yufeng
+               lijunpeng everbird xiliang yq_intern xingben sudan huanghuang
+               whyme menghan zhuzhidong 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+       <whyme> cc @jay                                                  [18:16]
+           *** guozhuwen (Adium@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [18:18]
+           *** Your new nickname is RyanKung                            [18:19]
+      <xieshi> whyme: 我能看到是absctract相关的3个                      [18:21]
+      <xieshi> whyme: 然后我顺手改了                                    [18:22]
+           *** surui (surui@192.168.1.6) has quit: Client exited        [18:23]
+           *** pengzhefu (pengzhefu@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:24]
+      <davies> 正在用 dpark 加快数据恢复和 清理缓存                     [18:26]
+      <davies> 之前恢复的配置又被覆盖，导致错误数据又增多了
+                                                                        [18:27]
+           *** xingben (xingben@192.168.1.6) has quit: Connection closed
+           *** gaocheng (Miko_Gao@192.168.1.6) has quit: Quit: Leaving.
+                                                                        [18:30]
+           *** bear (Adium@192.168.1.3) has quit: Quit: Leaving.
+           *** whyme (liuyue@192.168.1.6) has quit: Client exited       [18:31]
+           *** everbird (Adium@192.168.1.13) has quit: Quit: Leaving.   [18:32]
+           *** flex (flex@192.168.1.3) has joined channel #dev          [18:34]
+           *** xupeng (xupeng@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [18:37]
+           *** yq_intern (qing@192.168.1.3) has quit: Connection closed
+                                                                        [18:38]
+           *** mockee (mockee@192.168.1.6) has quit: Connection closed
+           *** jay (jay@192.168.1.6) has quit: Connection closed        [18:41]
+           *** huanghuang (huanghuang@192.168.1.3) has quit: Quit: Leaving
+                                                                        [18:42]
+           *** hongqn (hongqn@192.168.1.3) has quit: Connection closed  [18:44]
+           *** wangye (wangye@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** mengwei (mengwei@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [18:46]
+      <jiawei>  @davies /var/ark-test 下拿不到，/var/shire-book-test 能拿出来
+      <davies> 什么key ?                                                [18:47]
+           *** sudan (Adium@192.168.1.13) has quit: Quit: Leaving.
+           *** liaofeng (liaofeng@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [18:50]
+           *** anrs (anrs@192.168.1.6) has quit: Connection closed      [18:56]
+      <jiawei> 取到了，但是和以前的方式不一样了
+      <jiawei> 好了，就剩下清掉cache了                                  [18:58]
+           *** jiawei (jiawei@192.168.1.6) has quit: Quit: Leaving.     [19:00]
+           *** jiawei (jiawei@192.168.1.6) has joined channel #dev
+           *** laiwei (laiwei@192.168.1.3) has quit: Ping timeout: 121 seconds
+           *** jiawei (jiawei@192.168.1.6) has quit: Quit: Leaving.
+           *** huoxy (huoxy@192.168.1.3) has left channel #dev: "离开"
+                                                                        [19:03]
+           *** liwei (zzzzhe@192.168.1.3) has left channel #dev: #dev   [19:06]
+           *** lijunpeng (lijunpeng@192.168.1.6) has quit: Connection closed
+                                                                        [19:07]
+           *** zhangchi (zhangchi@192.168.1.13) has quit: Connection closed
+                                                                        [19:08]
+           *** zhaoyu (zhaoyu@192.168.1.6) has quit: Connection closed  [19:11]
+      <davies> 已经在青cache , 应用层间接影响到的cache 需要单独处理
+                                                                        [19:12]
+      <davies> cache 基本清理完了，看看还有哪些不正常？                 [19:13]
+      <davies> ALL:
+           *** lifei (clyde@192.168.1.3) has quit: Connection closed    [19:14]
+           *** yufeng (Adium@192.168.1.13) has quit: Ping timeout: 121 seconds
+       <luoxi> 赞 辛苦！
+      <xieshi> davies: 我这儿能看到的几个都对了                         [19:15]
+           *** ryutlis (ryutlis@192.168.1.6) has quit: Quit: Leaving.
+           *** chenzheng (jaimechen@192.168.1.3) has quit: Quit: Leaving.
+                                                                        [19:18]
+
+[Fri Mar 23 2012]
+           *** You have joined channel #dev                             [20:55]
+           *** Users on #dev: flex liwei davies ircbot menghan chentuo
+               kongzhen zhaoling guibog 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** Your new nickname is RyanKung
+           *** huoxy (huoxy@192.168.1.6) has joined channel #dev        [21:08]
+           *** menghan (menghan@192.168.1.3) has quit: Quit: Leaving.   [21:13]
+           *** mengwei (mengwei@192.168.1.6) has joined channel #dev    [21:20]
+           *** zhuzhidong (Adium@192.168.1.6) has joined channel #dev   [21:23]
+           *** zhuzhidong (Adium@192.168.1.6) has quit: Quit: Leaving.  [21:26]
+           *** huoxy (huoxy@192.168.1.6) has left channel #dev: "离开"
+                                                                        [21:27]
+           *** zhaoling (zhaoling@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [21:35]
+           *** everbird (Adium@192.168.1.13) has joined channel #dev    [21:39]
+           *** chentuo (chentuo@192.168.1.13) has quit: Client exited   [21:44]
+           *** liwei (zzzzhe@192.168.1.6) has left channel #dev: #dev
+           *** guibog (guibog@192.168.1.3) has left channel #dev: #dev  [21:48]
+           *** liwei (zzzzhe@192.168.1.3) has joined channel #dev       [21:50]
+           *** huoxy (huoxy@192.168.1.3) has joined channel #dev        [22:28]
+           *** liwei (zzzzhe@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [22:39]
+           *** haidong (Adium@192.168.1.6) has joined channel #dev      [22:41]
+           *** flex (flex@192.168.1.3) has quit: Connection closed      [23:03]
+           *** laiwei (laiwei@192.168.1.6) has joined channel #dev      [23:06]
+           *** haidong (Adium@192.168.1.6) has quit: Quit: Leaving.     [23:22]
+           *** wangye (wangye@192.168.1.3) has joined channel #dev      [23:37]
+
+[Sat Mar 24 2012]
+           *** huoxy (huoxy@192.168.1.3) has left channel #dev: "离开"
+                                                                        [00:11]
+           *** everbird (Adium@192.168.1.13) has quit: Quit: Leaving.   [00:20]
+           *** xingben (xingben@192.168.1.6) has joined channel #dev    [00:30]
+           *** xieshi (xieshi@192.168.1.3) has joined channel #dev      [00:40]
+           *** mockee (mockee@192.168.1.6) has joined channel #dev      [00:43]
+           *** mockee (mockee@192.168.1.6) has quit: Connection closed
+           *** xingben (xingben@192.168.1.6) has quit: Connection closed
+                                                                        [00:47]
+           *** laiwei (laiwei@192.168.1.6) has quit: Ping timeout: 121 seconds
+                                                                        [01:04]
+           *** laiwei (laiwei@192.168.1.3) has joined channel #dev      [01:10]
+           *** laiwei (laiwei@192.168.1.3) has quit: Ping timeout: 121 seconds
+                                                                        [01:14]
+           *** xieshi (xieshi@192.168.1.3) has quit: Quit: Leaving.     [01:34]
+           *** mengwei (mengwei@192.168.1.6) has quit: Connection closed
+                                                                        [01:35]
+
+[Sat Apr 21 2012]
+           *** You have joined channel #dev                             [18:50]
+           *** Topic for #dev: Notice: HTTP Proxy changed from 10.8.8.1 to
+               10.8.0.1
+           *** #dev: topic set by flex!flex@192.168.1.3, 02:04:51 2012/04/20
+           *** Users on #dev: mockee ryankung chentuo ircbot mengwei
+               changsheng lijunpeng luoweifeng menghan zhangchi surui 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+           *** surui (surui@192.168.1.3) has quit: Connection closed    [19:14]
+
+[Wed May  2 2012]
+           *** You have joined channel #dev                             [10:53]
+           *** Topic for #dev: Notice: HTTP Proxy changed from 10.8.8.1 to
+               10.8.0.1
+           *** #dev: topic set by flex!flex@192.168.1.3, 02:04:51 2012/04/20
+           *** Users on #dev: torpedoallen flex lijunpeng liaofeng haidong
+               mengwei guohaochuan satoru ircbot mockee chenzheng flycondor
+               guozhuwen sunyi sudan xklxkl ryutlis yufeng xingben liwei
+               zhangchi guibog huoxy everbird pengzhefu huanghuang jiawei
+               surui luoxi bear xuuss jay qingfeng whyme zhaoyu ryankung anrs
+               menghan xyb 
+           *** #dev modes: +n
+           *** #dev was created on Tuesday 2012/03/20 13:33:37
+         #dev> /join f2e
+         #dev> /join f2e
+           *** kongzhen (kongzhen@192.168.1.3) has joined channel #dev  [10:54]
+           *** kongzhen (kongzhen@192.168.1.3) is now known as ryankung_
+                                                                        [10:55]

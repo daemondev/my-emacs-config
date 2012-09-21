@@ -1,0 +1,13 @@
+
+[Tue Jan 31 2012]
+           *** You have joined channel #dev                             [22:57]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: menghan zhaoling haidong wangye surui zhangchi
+               hstan kongzhen flex changsheng ircbot torpedoallen 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+   <kongzhen`> Ryanmbp:~ ryan$ ping img3.douban.com                     [23:20]
+   <kongzhen`> PING 08911.xdwscache.glb0.lxdns.com (58.249.61.228): 56 data
+               bytes
+   <kongzhen`> Request timeout for icmp_seq 0

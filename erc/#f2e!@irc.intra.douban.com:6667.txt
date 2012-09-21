@@ -1,0 +1,7 @@
+
+[Wed May  2 2012]
+           *** You have joined channel #f2e                             [10:53]
+           *** Users on #f2e: ircbot mockee sunyi xklxkl whyme ryankung 
+           *** #f2e modes: +n
+           *** #f2e was created on Tuesday 2012/03/20 13:33:37
+         #f2e> /join dev                                                [10:54]

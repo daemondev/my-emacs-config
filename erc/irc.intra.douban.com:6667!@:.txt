@@ -1,0 +1,244 @@
+
+[Tue Jan 17 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [11:20]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+           ==> ERROR from irc.intra.douban.com: Closing link:
+               (user@192.168.1.6) [Access denied]
+
+
+    Connection failed!  Not re-establishing connection.
+
+
+           *** ERC terminated: connection broken by remote peer
+
+
+[Wed Jan 18 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [14:23]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+           *** Nickname kongzhen is already in use, trying kongzhen`
+           ==> ERROR from irc.intra.douban.com: Closing link:
+               (user@192.168.1.6) [Access denied]
+
+
+    Connection failed!  Not re-establishing connection.
+
+
+           *** ERC terminated: connection broken by remote peer
+
+
+[Thu Jan 19 2012]
+
+
+    Connection failed!  Not re-establishing connection.                 [20:53]
+
+
+           *** ERC terminated: deleted
+
+
+[Mon Mar 26 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [14:25]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.6
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAARBH your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 54 users and 1 invisible on 1 server
+           *** 39 channels formed
+           *** I have 55 clients and 0 servers
+          ERC> /nick ryankung
+           *** Your new nickname is ryankung
+          ERC> /join #dev
+
+[Sat Mar 31 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [16:24]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+           ==> ERROR from irc.intra.douban.com: Closing link:
+               (user@192.168.1.6) [Access denied]
+
+
+    Connection failed!  Not re-establishing connection.
+
+
+           *** ERC terminated: connection broken by remote peer
+
+
+[Thu Apr  5 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [14:35]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.6
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAATVW your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 47 users and 1 invisible on 1 server
+           *** 38 channels formed
+           *** I have 48 clients and 0 servers
+          ERC> /nick ryankung
+           *** Your new nickname is ryankung
+          ERC> /join #dev
+
+[Fri Apr  6 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [10:37]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.6
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAAT0L your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 37 users and 1 invisible on 1 server
+           *** 38 channels formed
+           *** I have 38 clients and 0 servers
+          ERC> /nick ryankung
+           *** Your new nickname is ryankung
+          ERC> /join #dev
+
+[Thu Jun  7 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [19:08]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+    <kongzhen> ls
+            No target
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.190
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AABDI0 your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 25 users and 1 invisible on 1 server
+           *** 34 channels formed
+           *** I have 26 clients and 0 servers
+    <kongzhen> ls
+            No target
+          ERC> /join gondor
+           *** Your new nickname is ryankung
+
+[Thu Sep 20 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [14:37]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.189
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAAB0U your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 64 users and 0 invisible on 1 server
+           *** 42 channels formed
+           *** I have 64 clients and 0 servers
+           *** Your new nickname is ryankung                            [14:40]
+
+[Thu Sep 20 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [14:55]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.189
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAAB00 your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 65 users and 0 invisible on 1 server
+           *** 42 channels formed
+           *** I have 65 clients and 0 servers
+
+[Thu Sep 20 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [15:05]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+-irc.intra.douban.com- Welcome to douban!
+           *** Welcome to the douban IRC Network kongzhen!user@192.168.1.189
+           *** Your host is irc.intra.douban.com, running version InspIRCd-1.2
+           *** This server was created 17:49:18 Mar 24 2011
+           *** irc.intra.douban.com InspIRCd-1.2 iosw bhiklmnopstv
+           *** WALLCHOPS WALLVOICES MODES=19 CHANTYPES=# PREFIX=(ohv)@%+ MAP
+               MAXCHANNELS=200 MAXBANS=60 VBANLIST NICKLEN=31
+               CASEMAPPING=rfc1459 STATUSMSG=@%+ CHARSET=ascii are supported
+               by this server
+           *** TOPICLEN=307 KICKLEN=255 MAXTARGETS=19 AWAYLEN=200
+               CHANMODES=b,k,l,imnpst FNC NETWORK=douban MAXPARA=32 ELIST=MU
+               are supported by this server
+           *** irc.intra.douban.com 042 kongzhen 458AAAB01 your unique ID
+           *** irc.intra.douban.com message of the day
+           *** - ALL! 请加入 #announce 。
+           *** -  
+           *** End of message of the day.
+           *** There are 64 users and 0 invisible on 1 server
+           *** 42 channels formed
+           *** I have 64 clients and 0 servers
+           *** Your new nickname is ryankung

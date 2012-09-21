@@ -1,0 +1,13 @@
+
+[Fri Sep 21 2012]
+           *** You have joined channel #mobilebook                      [16:17]
+           *** Users on #mobilebook: @kongzhen 
+           *** #mobilebook modes: +n                                    [16:18]
+           *** #mobilebook was created on Friday 2012/09/21 16:17:59
+  #mobilebook> /title
+           *** TITLE: Unknown command
+  #mobilebook> /change
+           *** CHANGE: Unknown command
+  #mobilebook> /help
+  #mobilebook> /quit
+  #mobilebook> /eixt

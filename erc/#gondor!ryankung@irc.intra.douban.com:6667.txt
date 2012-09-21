@@ -1,0 +1,20 @@
+
+[Tue Mar 20 2012]
+           *** You have joined channel #gondor                          [22:22]
+           *** Users on #gondor: @RyanKung 
+           *** #gondor modes: +n
+           *** #gondor was created on Tuesday 2012/03/20 22:22:52
+      #gondor> /msg nickserv help register                              [22:23]
+           *** nickserv: No such nick/channel
+      #gondor> /msg nickserv help
+           *** nickserv: No such nick/channel
+      #gondor> /nickserv                                                [22:24]
+           *** NICKSERV: Unknown command
+      #gondor> /help
+      #gondor> /msg nickserv register Sqrt3=1.732 kongzhen@douban.com   [22:27]
+           *** nickserv: No such nick/channel
+      #gondor> /nick                                                    [22:28]
+     Incorrect arguments. Usage:
+/NICK nick
+Change current nickname to NICK.
+      #gondor> /nick RyanKung

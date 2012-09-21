@@ -1,0 +1,176 @@
+
+[Tue Jan 17 2012]
+           *** You have joined channel #dev                             [11:25]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: davies huanghuang ryutlis yufeng mengwei anrs
+               liwei xupeng zhaoling guibog whyme changsheng xingben guojing
+               xuuss haidong laiwei xiliang jiawei lifei huoxy bear kongzhen
+               zhaoyu surui pengzhefu liaofeng menghan guozhuwen luoxi flex
+               hongqn xyb py lijunpeng gaocheng sunyi hstan lilinghui
+               flycondor jay panglv ircbot jollychang 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+         #dev> /part                                                    [11:26]
+           *** You have left channel #dev
+
+[Sun Jan 22 2012]
+           *** You have joined channel #dev                             [16:14]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: wangye flex kongzhen chentuo huoxy panglv
+               mengwei ircbot 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+    <kongzhen> Server Error
+    <kongzhen> 服务器开小差了，稍后再试吧。
+        <flex> 在看                                                     [16:15]
+       <huoxy> 刚才上过线么
+        <flex> huoxy: 已联系员外                                        [16:16]
+        <flex> 初步判定是数据库阻塞
+       <huoxy> 还没看到db的报警啊                                       [16:17]
+        <flex> 阻塞没有报警的
+        <flex> 看sysadmin的页面
+        <flex> 基本上开小差一是用find_problems.py看，二是看luz进程有没有错误，
+               三就是看数据库有没有阻塞                                 [16:18]
+        <flex> huoxy: balin上的mlnet报警貌似很久了？                    [16:23]
+           *** xupeng (xupeng@192.168.1.2) has joined channel #dev
+           *** panglv (panglv@192.168.1.6) has quit: Ping timeout: 121 seconds
+       <huoxy> 没看到
+       <huoxy> 现在没了？
+       <huoxy> 我这dns被劫持着呢。                                      [16:24]
+        <flex> 呃                                                       [16:25]
+        <flex> 我来弄吧                                                 [16:26]
+        <flex> 好了                                                     [16:27]
+       <huoxy> dt的联通。                                               [16:28]
+        <flex> huoxy: 清下缓存应该就好了吧
+        <flex> 我出去下～～你盯着下吧～                                 [16:29]
+       <huoxy> 不行。
+       <huoxy> 好
+       <huoxy> 奶奶的，哥走代理，好了。                                 [16:32]
+           *** huoxy (huoxy@192.168.1.13) has quit: Ping timeout: 121 seconds
+                                                                        [16:38]
+           *** xupeng (xupeng@192.168.1.2) has quit: Ping timeout: 121 seconds
+                                                                        [17:11]
+           *** huoxy (huoxy@192.168.1.13) has joined channel #dev       [17:58]
+           *** mengwei (mengwei@192.168.1.3) has quit: Ping timeout: 121
+               seconds                                                  [18:07]
+           *** mengwei (mengwei@192.168.1.6) has joined channel #dev    [18:08]
+           *** mengwei (mengwei@192.168.1.6) has quit: Ping timeout: 121
+               seconds                                                  [18:15]
+           *** mengwei (mengwei@192.168.1.3) has joined channel #dev
+           *** menghan (menghan@192.168.1.3) has joined channel #dev    [20:17]
+           *** menghan (menghan@192.168.1.3) has quit: Quit: Leaving.   [20:23]
+           *** lijian (Adium@192.168.1.3) has joined channel #dev       [20:38]
+           *** lijian (Adium@192.168.1.3) has quit: Connection closed
+
+[Tue Jan 31 2012]
+           *** You have joined channel #dev                             [11:59]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: guojing huanghuang zhaoling haidong torpedoallen
+               xiliang lijunpeng hongqn jay guozhuwen lvting menghan xuuss
+               xingben lilinghui wangye yangliu zhangchi bear xupeng gaocheng
+               panglv jiawei whyme py satoru sunyi kongzhen flex ryutlis
+               fuyuquan jollychang liwei xiaoxiao chentuo pengzhefu anrs lifei
+               mockee huoxy changsheng flycondor qingfeng xyb ircbot yufeng
+               luoxi 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+        <flex> 重启？上线的时候不会重启么                               [12:00]
+        <anrs> 是的，给 listcache 加上 fmt 参数后没有改 key
+        <flex> 现在还在持续报错                                         [12:01]
+        <flex> 这是后续效应么
+        <anrs> flex 你是在哪看到的？
+        <flex> service的log
+        <flex> anduin的service的error log
+       <huoxy> anrs，redarrow --host hogg1 tail-doubanservice-logs anduin
+                                                                        [12:04]
+       <huoxy> anrs，在fili上，redarrow --host hogg1 tail-doubanservice-logs
+               anduin
+           *** mockee (mockee@192.168.1.3) has quit: Quit: Leaving.     [12:06]
+        <flex> anrs: xupeng 说数据库里面没有对应的字段
+        <flex> 不确定是不是这个原因
+         <xyb> anrs, py， 在改这个问题吗？                              [12:12]
+        <anrs> 在
+         <xyb> py, anrs: 广播页面报错还是很频繁 'NoneType' object has no
+               attribute 'id'
+               http://onimaru.intra.douban.com/sentry/group/45861       [12:22]
+      <ircbot> Title: Login | Sentry (at onimaru.intra.douban.com)
+        <anrs> 看到了，正在改嘞
+         <xyb>   File "/tmp/mako_cache/widgets/status.html.py", line 70, in
+               render_body
+         <xyb>     mine = request.user and request.user.id == show_owner.id
+         <xyb> AttributeError: 'NoneType' object has no attribute 'id'
+         <xyb> OK                                                       [12:23]
+      <hongqn> anrs: 现在 anduin service 的 qps 和 avg time 都不正常
+               http://sysadmin.douban.com/munin/services/doubanservice_anduin_qps/
+               http://sysadmin.douban.com/munin/services/doubanservice_anduin_time/
+                                                                        [12:28]
+      <ircbot> Title: Munin - Douban (at sysadmin.douban.com)
+        <anrs> 现在应该降下来了                                         [12:29]
+      <hongqn> ok
+      <hongqn> anrs: 是什么原因导致的？
+        <anrs> 之前给 listcache 加上了 fmt='L' 参数，但没有改 cache key，导致在
+               原来的 key 上格式化 key                                  [12:30]
+        <anrs> 原来的 fmt 是 int，所以缓存都 miss 了                    [12:31]
+           *** xupeng (xupeng@192.168.1.3) has quit: Client closed the
+               connection                                               [12:33]
+           *** xupeng (xupeng@192.168.1.3) has joined channel #dev
+           *** panglv (panglv@192.168.1.3) has quit: Client exited      [12:42]
+           *** huanghuang (huanghuang@192.168.1.6) has quit: Quit: Leaving
+                                                                        [12:50]
+           *** huanghuang (huanghuang@192.168.1.6) has joined channel #dev
+                                                                        [12:55]
+           *** mockee (mockee@192.168.1.3) has joined channel #dev      [13:07]
+           *** lijian (Adium@192.168.1.6) has joined channel #dev
+           *** sunyi (Adium@192.168.1.6) has quit: Client closed the
+               connection                                               [13:15]
+           *** sunyi (Adium@192.168.1.6) has joined channel #dev
+           *** panglv (panglv@192.168.1.6) has joined channel #dev      [13:29]
+
+[Fri Feb 10 2012]
+           *** You have joined channel #dev                             [17:30]
+           *** Topic for #dev: 工程师四次元
+           *** #dev: topic set by flex!flex@192.168.1.6, 23:31:15 2012/01/12
+           *** Users on #dev: fuyuquan laiwei huanghuang lifei ircbot hongqn
+               mengwei huoxy sunyi ryutlis changsheng yangliu xuuss jollychang
+               xyb zhaoling xiliang satoru flex chentuo lijian wangye xieshi
+               flycondor bear xupeng guibog liaofeng lijunpeng lilinghui
+               qingfeng kongzhen liwei pengzhefu xiaoxiao jay everbird
+               torpedoallen menghan yufeng luoxi hstan guozhuwen gaocheng
+               davies zhangkejun py surui xingben panglv anrs 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2011/12/09 06:10:30
+           *** whyme (liuyue@192.168.1.6) has joined channel #dev
+           *** wangye (wangye@192.168.1.6) has quit: Ping timeout: 121 seconds
+
+[Fri Sep 21 2012]
+           *** You have joined channel #dev                             [16:17]
+           *** Users on #dev: ircbot luoxi sudan zhangchi guozhuwen panglv
+               huanghuang xieshi zhuzhidong bear zhaoling haidong yangliu
+               yangqing zhaoyu zengfanyu torpedoallen gonghao jasonzhao
+               xiliang mengwei satoru liukang qingfeng kongzhen hstan
+               luoweifeng liwei pengzhefu guibog liaofeng haibo lantian xuuss
+               sunyi anrs huoxy surui yufeng xingben chenzheng chentuo
+               lilinghui tianzhongbo jollychang everbird qianlong davies
+               guohaochuan wangye whyme flex jiawei xyb menghan xupeng
+               fuyuquan 
+           *** Users on #dev: lijunpeng gaocheng jay hongqn linju lifei cxc 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2012/09/14 10:48:15
+
+[Fri Sep 21 2012]
+           *** You have joined channel #dev                             [16:26]
+           *** Users on #dev: ircbot luoxi sudan zhangchi guozhuwen panglv
+               huanghuang xieshi zhuzhidong bear zhaoling haidong yangliu
+               yangqing zhaoyu zengfanyu torpedoallen gonghao jasonzhao
+               xiliang mengwei satoru kongzhen liukang qingfeng hstan
+               luoweifeng liwei pengzhefu guibog liaofeng haibo lantian xuuss
+               sunyi anrs huoxy surui yufeng xingben chenzheng chentuo
+               lilinghui tianzhongbo jollychang everbird qianlong davies
+               guohaochuan wangye whyme flex jiawei xyb menghan xupeng
+               fuyuquan 
+           *** Users on #dev: lijunpeng gaocheng jay hongqn linju lifei cxc 
+           *** #dev modes: +n
+           *** #dev was created on Friday 2012/09/14 10:48:15

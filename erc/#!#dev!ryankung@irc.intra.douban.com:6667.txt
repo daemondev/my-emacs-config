@@ -1,0 +1,11 @@
+
+[Mon Mar 26 2012]
+           *** You have joined channel #/#dev                           [10:51]
+           *** Users on #/#dev: @RyanKung 
+           *** #/#dev modes: +n
+           *** #/#dev was created on Monday 2012/03/26 10:51:46
+       #/#dev> /apart                                                   [10:52]
+           *** APART: Unknown command
+       #/#dev> /leave
+           *** You have left channel #/#dev
+          ERC> /join #dev

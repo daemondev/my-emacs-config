@@ -1,0 +1,145 @@
+
+[Thu Jun  7 2012]
+           *** You have joined channel #gondor                          [19:08]
+           *** Topic for #gondor: GREAT GONDOR!
+           *** #gondor: topic set by ryankung!kongzhen@192.168.1.3, 16:30:50
+               2012/05/04
+           *** Users on #gondor: ryutlis kongzhen yangyang guibog qaci ircbot 
+           *** #gondor modes: +n
+           *** #gondor was created on Monday 2012/04/16 10:20:15
+      #gondor> /nick ryankung
+           *** Your new nickname is ryankung
+        <qaci> Project gondor-dev-pylint-detail build #1632: FAILURE in 26
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1632/
+                                                                        [19:09]
+      <ircbot> Title: gondor-dev-pylint-detail #1632 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1633: STILL FAILING in
+               28 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1633/
+                                                                        [19:10]
+      <ircbot> Title: gondor-dev-pylint-detail #1633 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1634: STILL FAILING in
+               26 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1634/
+                                                                        [19:11]
+      <ircbot> Title: gondor-dev-pylint-detail #1634 [Jenkins] (at
+               qaci.intra.douban.com)
+           *** ryutlis (ryutlis@192.168.1.188) has quit: Quit: Leaving.
+                                                                        [19:12]
+        <qaci> Project gondor-dev-pylint-detail build #1635: STILL FAILING in
+               27 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1635/
+      <ircbot> Title: gondor-dev-pylint-detail #1635 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:13]
+        <qaci> Project gondor-dev-pylint-detail build #1636: FIXED in 55 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1636/
+      <ircbot> Title: gondor-dev-pylint-detail #1636 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1637: FAILURE in 27
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1637/
+                                                                        [19:14]
+      <ircbot> Title: gondor-dev-pylint-detail #1637 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:15]
+        <qaci> Project gondor-dev-pylint-detail build #1638: FIXED in 41 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1638/
+      <ircbot> Title: gondor-dev-pylint-detail #1638 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1639: FAILURE in 58
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1639/
+                                                                        [19:16]
+        <qaci> Project gondor-dev-pylint build #1365: FAILURE in 33 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint/1365/
+      <ircbot> Title: gondor-dev-pylint-detail #1639 [Jenkins] (at
+               qaci.intra.douban.com)
+      <ircbot> Title: gondor-dev-pylint #1365 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:17]
+        <qaci> Project gondor-dev-pylint build #1366: FIXED in 28 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint/1366/
+      <ircbot> Title: gondor-dev-pylint #1366 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1640: STILL FAILING in
+               27 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1640/
+                                                                        [19:18]
+      <ircbot> Title: gondor-dev-pylint-detail #1640 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:19]
+        <qaci> Project gondor-dev-pylint-detail build #1641: FIXED in 35 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1641/
+      <ircbot> Title: gondor-dev-pylint-detail #1641 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1642: FAILURE in 30
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1642/
+                                                                        [19:20]
+      <ircbot> Title: gondor-dev-pylint-detail #1642 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:21]
+        <qaci> Project gondor-dev-pylint-detail build #1643: FIXED in 37 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1643/
+      <ircbot> Title: gondor-dev-pylint-detail #1643 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1644: FAILURE in 28
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1644/
+                                                                        [19:22]
+      <ircbot> Title: gondor-dev-pylint-detail #1644 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:23]
+        <qaci> Project gondor-dev-pylint-detail build #1645: FIXED in 43 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1645/
+      <ircbot> Title: gondor-dev-pylint-detail #1645 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1649: FAILURE in 30
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1649/
+                                                                        [19:27]
+      <ircbot> Title: gondor-dev-pylint-detail #1649 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Yippie, build fixed!                                     [19:28]
+        <qaci> Project gondor-dev-pylint-detail build #1650: FIXED in 36 sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1650/
+      <ircbot> Title: gondor-dev-pylint-detail #1650 [Jenkins] (at
+               qaci.intra.douban.com)
+        <qaci> Project gondor-dev-pylint-detail build #1654: FAILURE in 29
+               sec:
+               http://qaci.intra.douban.com/job/gondor-dev-pylint-detail/1654/
+                                                                        [19:32]
+      <ircbot> Title: gondor-dev-pylint-detail #1654 [Jenkins] (at
+               qaci.intra.douban.com)
+
+[Thu Sep 20 2012]
+           *** You have joined channel #gondor                          [14:37]
+           *** Users on #gondor: @ircbot lifei qaci kongzhen 
+           *** #gondor modes: +n
+           *** #gondor was created on Friday 2012/09/14 10:48:56
+      #gondor> /nick ryankung                                           [14:40]
+           *** Your new nickname is ryankung
+
+[Thu Sep 20 2012]
+           *** You have joined channel #gondor                          [14:56]
+           *** Users on #gondor: @ircbot lifei kongzhen qaci 
+           *** #gondor modes: +n
+           *** #gondor was created on Friday 2012/09/14 10:48:56
+
+[Thu Sep 20 2012]
+           *** You have joined channel #gondor                          [15:05]
+           *** Users on #gondor: @ircbot lifei kongzhen qaci 
+           *** #gondor modes: +n
+           *** #gondor was created on Friday 2012/09/14 10:48:56
+           *** Your new nickname is ryankung
+           *** lifei (clyde@192.168.1.189) has quit: Quit: Leaving.     [18:33]
+
+[Fri Sep 21 2012]
+           *** You have joined channel #gondor                          [16:26]
+           *** Users on #gondor: @ircbot kongzhen qaci lifei 
+           *** #gondor modes: +n
+           *** #gondor was created on Friday 2012/09/14 10:48:56

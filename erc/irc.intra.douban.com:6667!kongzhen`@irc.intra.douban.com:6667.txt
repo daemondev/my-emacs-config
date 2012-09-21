@@ -1,0 +1,15 @@
+
+[Tue Jan 31 2012]
+-irc.intra.douban.com- *** Looking up your hostname...                  [23:05]
+-irc.intra.douban.com- *** Skipping host resolution (disabled by server
+               administrator)
+           *** Nickname kongzhen is already in use, trying kongzhen`
+           ==> ERROR from irc.intra.douban.com: Closing link:
+               (user@192.168.1.6) [Access denied]
+
+
+    Connection failed!  Not re-establishing connection.
+
+
+           *** ERC terminated: connection broken by remote peer
+
